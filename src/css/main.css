@@ -1,0 +1,49 @@
+.Main a {
+  text-decoration: none;
+}
+.Main header {
+  text-align: center;
+  margin: 5%;
+  font-size: 50px;
+}
+
+.main_middle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Main nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  padding: 10px;
+  margin-right: 10px;
+}
+.Main nav ul {
+  padding: 0;
+}
+
+.middle {
+  flex-direction: column;
+  flex: 6;
+  padding: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: bisque;
+}
+
+.act {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.act img {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+}

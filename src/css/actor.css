@@ -1,0 +1,50 @@
+.Actor a {
+  text-decoration: none;
+}
+.Actor header {
+  text-align: center;
+  margin: 5%;
+  font-size: 50px;
+}
+
+.actor_middle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Actor nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  padding: 10px;
+  margin-right: 10px;
+}
+.Actor nav ul {
+  padding: 0;
+}
+
+.act {
+  display: flex;
+  flex-wrap: wrap; /* 아이템을 줄바꿈하도록 설정 */
+}
+
+.act > div {
+  flex: 0 0 calc(20% - 20px); /* 5개 아이템일 때 하나의 아이템 너비 (5개 아이템 중 1/5) */
+  margin: 10px; /* 간격 설정 */
+  text-align: center;
+}
+
+.act img {
+  width: 250px;
+  height: 300px;
+}
+
+.act button {
+  margin: 5px;
+}
+
+.new_button1 button {
+  padding: 10px;
+}

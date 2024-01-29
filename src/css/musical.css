@@ -1,0 +1,53 @@
+.Musical a {
+  text-decoration: none;
+}
+.Musical header {
+  text-align: center;
+  margin: 5%;
+  font-size: 50px;
+}
+
+.musical_middle {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Musical nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  padding: 10px;
+  margin-right: 10px;
+}
+.Musical nav ul {
+  padding: 0;
+}
+
+.mus {
+  display: flex;
+  flex-wrap: wrap; /* 아이템을 줄바꿈하도록 설정 */
+  justify-content: space-evenly;
+}
+
+.mus > div {
+  flex: 0 0 calc(20% - 20px); /* 5개 아이템일 때 하나의 아이템 너비 (5개 아이템 중 1/5) */
+  margin: 10px; /* 간격 설정 */
+  text-align: center;
+}
+
+.mus img {
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.mus button {
+  text-align: center;
+  margin: 5px;
+}
+
+.new_button button {
+  padding: 10px;
+}
